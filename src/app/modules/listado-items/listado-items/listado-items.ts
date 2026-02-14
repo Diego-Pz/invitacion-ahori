@@ -4,6 +4,7 @@ import { FormControl } from '@angular/forms';
 import { MatDialog } from '@angular/material/dialog';
 import { debounceTime, distinctUntilChanged } from 'rxjs';
 import { Asking } from './asking/asking';
+import { Happy } from './happy/happy';
 
 @Component({
   selector: 'app-listado-items',
@@ -37,6 +38,9 @@ export class ListadoItems {
     const dialogRef = this.dialogRef.open(Asking);
 
     dialogRef.afterClosed().subscribe(result => {
+      if (result == 1) {
+        const dialogIf = this.dialogRef.open(Happy);
+      }
       console.log(`Dialog result: ${result}`);
     });
   }

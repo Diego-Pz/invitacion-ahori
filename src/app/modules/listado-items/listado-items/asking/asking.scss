@@ -60,3 +60,19 @@
   :hover.botonAccion{
     background-color: #e9b0ab;
   }
+
+  .botonCancelar{
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+    border: var(--color-black-alt) solid 3px;
+    font-weight: 700;
+    background-color: white;
+
+    cursor: pointer;
+    color: var(--color-black-alt);
+    font-size: 20px;
+  }
+
+  :hover.botonCancelar{
+    background-color: #b4b4b4;
+  }
