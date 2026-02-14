@@ -1,0 +1,62 @@
+.fondoCarta{
+    padding: 1rem;
+    background-image: url("https://img.freepik.com/vector-gratis/marco-rosa-acuarela_53876-93920.jpg?t=st=1771032790~exp=1771036390~hmac=3f71407dcb835487c2d5e4c8ad1b26a7baf643b0dc5678fb2a287b2107810512&w=1060");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-wrapper {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    transition: all 0.5s ease;
+    opacity: 0;
+    transform: translateY(10px);
+    color: var(--color-black-alt);
+  }
+  
+  .text1 {
+    opacity: 1;
+    font-size: 18px;
+    transform: translateY(0);
+  }
+  
+  .text-wrapper.active .text1 {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  
+  .text-wrapper.active .text2 {
+    opacity: 1;
+    font-size: 26px;
+    transform: translateY(0);
+  }
+  
+  
+
+  .botonAccion{
+    border-radius: 1.5rem;
+    padding: 0.5rem;
+    border: #ea728c solid 3px;
+    font-weight: 700;
+    background-color: #f5c9c5;
+    cursor: pointer;
+    color: #e24363;
+    font-size: 20px;
+  }
+
+  :hover.botonAccion{
+    background-color: #e9b0ab;
+  }

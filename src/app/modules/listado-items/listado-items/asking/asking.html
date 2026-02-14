@@ -1,0 +1,10 @@
+<div class="fondoCarta">
+    <img class="w-3/5" src="assets/png/ask.png" alt="Descripción">
+    <div class="text-wrapper" [class.active]="activo">
+        <span class="text text1">バレンタインを一緒に過ごしてくれる?</span>
+        <span class="text text2">¿Quieres ser mi San Valentín?</span>
+    </div>
+    <button class="botonApariencia botonAccion" (click)="activo = !activo">
+        {{activo ? 'Volver a Japonés' : '¿Nitas traducción? Presiona aquí'}}
+    </button>
+</div>

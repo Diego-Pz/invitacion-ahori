@@ -8,6 +8,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import {MatInputModule} from '@angular/material/input';
 import {MatSelectModule} from '@angular/material/select';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatDialogModule } from '@angular/material/dialog';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
@@ -19,6 +20,7 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
     CommonModule
   ],
   exports: [
+    MatDialogModule,
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,

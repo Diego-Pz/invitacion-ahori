@@ -105,3 +105,38 @@ mat-form-field, mat-label{
   .item-selected{
     background-color: #d7e3ff;
   }
+
+  .containter-carta{
+    border-color: #ea728c;
+    border-radius: 2rem;
+    border-width: 3px;
+    display: flex;
+    max-height: 90vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #f7f7f7;
+    padding: 1.5rem;
+  }
+
+  .img-carta{
+    min-height: -webkit-fill-available;
+  }
+
+  .botonAccion{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    border: #ea728c solid 3px;
+    font-weight: 700;
+    background-color: #f5c9c5;
+    cursor: pointer;
+    color: #e24363;
+    font-size: 20px;
+  }
+
+  :hover.botonAccion{
+    background-color: #e9b0ab;
+  }
