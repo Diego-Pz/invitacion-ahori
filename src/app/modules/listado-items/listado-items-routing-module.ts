@@ -6,7 +6,7 @@ const routes: Routes = [
   {
     path: '',
     component: ListadoItems,
-    title: 'EsSalud - Filtrado Búsqueda'
+    title: 'Carta para Ahori'
   }
 ];
 
